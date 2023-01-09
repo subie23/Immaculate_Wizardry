@@ -1,6 +1,6 @@
 const Intern = require('../lib/Intern.js');
 
-const testObject = {name: 'Nora', id: 3, email: "789@some.com", school: "school"}
+const testObject = {name: 'Nora', id: 3, email: "789@co.com", school: "school"}
 
 test('Checks for inherited Employee properties', () => {
     const intern = new Intern(testObject);
