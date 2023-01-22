@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-function employeeCard(passedObject) { //consider destructuring
+function employeeCard(passedObject) { 
     let variable
     ({name, id, email, officeNumber, github, school} = passedObject)
 
@@ -31,7 +31,6 @@ function howMany(passedObjectArray) {
 
     let ret = '' 
     console.log(passedObjectArray)
-    // console.log(passedObjectArray.length)
     for (i = 0; i < passedObjectArray.length; i++) {
         console.log(`${i}`)
         console.log(passedObjectArray[i])
@@ -51,14 +50,14 @@ module.exports = function (passedObjectArray) {
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Team Profile Generator</title>
+        <title>My Team</title>
         <link rel="stylesheet" href="./style.css">
     </head>
     
     <body>
     
         <header>
-            My Team
+            Meet my Team . . .
         </header>
     
         <main>
