@@ -1,7 +1,9 @@
 # Immaculate_Wizardry
-This application is run from the command line
+This application is run from the command line it takes in information about employees on a software engineering team, and with that information generates an HTML webpage that displays the user input data.
+
 ## Video Demo
 #### URL for the Video Demo: https://drive.google.com/file/d/1mybDEIoZMyGD5J1DGp99Mu99zgsyRG2c/view
+
 #### Screenshot of the application:
 <img width="1888" alt="Screenshot MyTeam" src="https://user-images.githubusercontent.com/105945177/213898962-0a730da0-9cdc-4d58-986f-bca2f38fe115.png">
 
